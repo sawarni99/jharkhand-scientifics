@@ -4,6 +4,23 @@ import Link from "../../components/link/Link";
 
 function Navbar() {
   const phoneNumber = "+91-7739568425";
+
+  const onclickHome = () => {
+    //TODO: Have to redirect from here...
+  };
+
+  const onclickProducts = () => {
+    //TODO: Have to redirect from here...
+  };
+
+  const onclickCustomers = () => {
+    //TODO: Have to redirect from here...
+  };
+
+  const onclickContact = () => {
+    //TODO: Have to redirect from here...
+  };
+
   return (
     <div className="navbar-container">
       <div className="navbar">
@@ -13,13 +30,16 @@ function Navbar() {
         </div>
         <div className="navbar-center">
           <div>
-            <Link>HOME</Link>
+            <Link onClick={onclickHome}>HOME</Link>
           </div>
           <div>
-            <Link>PRODUCTS</Link>
+            <Link onClick={onclickProducts}>PRODUCTS</Link>
           </div>
           <div>
-            <Link>CONTACT</Link>
+            <Link onClick={onclickCustomers}>CUSTOMERS</Link>
+          </div>
+          <div>
+            <Link onClick={onclickContact}>CONTACT</Link>
           </div>
         </div>
         <div className="navbar-right">
