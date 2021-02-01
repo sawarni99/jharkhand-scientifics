@@ -1,0 +1,34 @@
+.navbar-container {
+  position: absolute;
+  top: 0;
+  height: 35vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  height: 18vh;
+  width: 85%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  display: flex;
+}
+.navbar-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--secondary-font);
+  font-size: 200%;
+}
+.navbar-center {
+  flex: 3;
+}
+.navbar-right {
+  flex: 1;
+  background: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
