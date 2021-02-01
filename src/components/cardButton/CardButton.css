@@ -6,6 +6,7 @@
   color: white;
   font-family: var(--secondary-font);
   display: flex;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4);
 }
 .card-button:hover {
   background: var(--primary-color);

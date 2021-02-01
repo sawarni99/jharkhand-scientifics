@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./CardButton.css";
 
 function CardButton({ children, from, to, onClick }) {
-  const iconWithoutHover = <img src={from} alt="" />;
-  const iconWithHover = <img src={to} alt="" />;
+  const iconWithoutHover = <img src={from} alt="" height="50px" />;
+  const iconWithHover = <img src={to} alt="" height="50px" />;
   const [icon, setIcon] = useState(iconWithoutHover);
 
   return (
