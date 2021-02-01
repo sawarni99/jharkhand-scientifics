@@ -1,0 +1,17 @@
+.service-card {
+  height: 250px;
+  width: 100%;
+  flex: 1;
+  padding: 20px;
+}
+.service-card-icon {
+  margin-bottom: 30px;
+}
+.service-card-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+.service-card-content {
+  font-size: 16px;
+  color: rgb(99, 99, 99);
+}
