@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import Link from "../../components/link/Link";
 
 function Navbar() {
   const phoneNumber = "+91-7739568425";
@@ -11,10 +12,18 @@ function Navbar() {
           SCIENTIFICS
         </div>
         <div className="navbar-center">
-          <div>HOME</div>
-          <div>PRODUCTS</div>
-          <div>ABOUT US</div>
-          <div>CONTACTS</div>
+          <div>
+            <Link>HOME</Link>
+          </div>
+          <div>
+            <Link>PRODUCTS</Link>
+          </div>
+          <div>
+            <Link>ABOUT US</Link>
+          </div>
+          <div>
+            <Link>CONTACT</Link>
+          </div>
         </div>
         <div className="navbar-right">
           <img
