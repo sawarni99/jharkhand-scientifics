@@ -3,6 +3,7 @@ import "./FrontPage.css";
 import Navbar from "../../components/navbar/Navbar";
 import ServiceView from "./ServiceView";
 import BrowseView from "./BrowseView";
+import Footer from "../../components/footer/Footer";
 
 export default function FrontPage() {
   const divider = <div className="front-page-divider" />;
@@ -22,6 +23,9 @@ export default function FrontPage() {
         <ServiceView />
         {divider}
         <BrowseView />
+      </div>
+      <div className="front-page-footer">
+        <Footer />
       </div>
     </div>
   );
