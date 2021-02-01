@@ -10,7 +10,12 @@ function Navbar() {
           JHARKHAND <br />
           SCIENTIFICS
         </div>
-        <div className="navbar-center"></div>
+        <div className="navbar-center">
+          <div>HOME</div>
+          <div>PRODUCTS</div>
+          <div>ABOUT US</div>
+          <div>CONTACTS</div>
+        </div>
         <div className="navbar-right">
           <img
             src="/images/call.png"
