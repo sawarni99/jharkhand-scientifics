@@ -2,10 +2,10 @@
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Cabin", sans-serif;
   --primary-color: #ffb606;
-  --secondary-color: #3a3a3a;
+  --secondary-color: #222222;
 }
 
 body {
   font-family: var(--primary-font);
-  color: var(--secondary-color);
+  color: #3e3e3e;
 }

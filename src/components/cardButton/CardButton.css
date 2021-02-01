@@ -1,0 +1,26 @@
+.card-button {
+  height: 160px;
+  width: 350px;
+  background: var(--secondary-color);
+  cursor: pointer;
+  color: white;
+  font-family: var(--secondary-font);
+  display: flex;
+}
+.card-button:hover {
+  background: var(--primary-color);
+}
+.card-button-left {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.card-button-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 2;
+  font-size: 180%;
+  margin: 10px;
+}
