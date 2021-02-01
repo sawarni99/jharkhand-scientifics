@@ -19,9 +19,6 @@ function Navbar() {
             <Link>PRODUCTS</Link>
           </div>
           <div>
-            <Link>ABOUT US</Link>
-          </div>
-          <div>
             <Link>CONTACT</Link>
           </div>
         </div>
