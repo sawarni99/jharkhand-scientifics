@@ -5,7 +5,7 @@
   --secondary-color: #262626;
 }
 
-.App {
+body {
   font-family: var(--primary-font);
   color: var(--secondary-color);
 }
