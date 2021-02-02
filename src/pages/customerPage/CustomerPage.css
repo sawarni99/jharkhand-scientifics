@@ -1,0 +1,10 @@
+.customer-page {
+  width: 100%;
+  padding-top: var(--height-navbar);
+}
+.customer-page-body {
+  min-height: calc(100vh - var(--height-navbar));
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

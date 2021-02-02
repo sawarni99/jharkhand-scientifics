@@ -5,10 +5,9 @@ import ServiceView from "./ServiceView";
 import BrowseView from "./BrowseView";
 import StocksView from "./StocksView";
 import Footer from "../../components/footer/Footer";
+import divider from "../../utils/divider";
 
 export default function FrontPage() {
-  const divider = <div className="front-page-divider" />;
-
   return (
     <div className="front-page">
       <Navbar />

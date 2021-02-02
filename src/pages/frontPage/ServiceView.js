@@ -1,11 +1,12 @@
 import React from "react";
 import "./FrontPage.css";
 import ServiceCard from "../../components/serviceCard/ServiceCard";
+import Heading from "../../components/heading/Heading";
 
 function ServiceView() {
   return (
     <>
-      <b className="front-page-heading">Our Services</b>
+      <Heading>Our Services</Heading>
       <div className="front-page-services">
         <ServiceCard src="/images/clock.png" heading="Since 1968">
           We are the scientific instrument dealer of Dhanbad, Jharkhand since

@@ -1,6 +1,7 @@
 import React from "react";
 import "./FrontPage.css";
 import CardButton from "../../components/cardButton/CardButton";
+import Heading from "../../components/heading/Heading";
 
 function BrowseView() {
   const onClickProducts = () => {
@@ -17,7 +18,7 @@ function BrowseView() {
 
   return (
     <>
-      <b className="front-page-heading">Explore</b>
+      <Heading>Explore</Heading>
       <div className="front-page-browse">
         <CardButton
           from="/images/flask-yellow.png"

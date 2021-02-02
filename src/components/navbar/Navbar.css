@@ -1,7 +1,11 @@
+:root {
+  --height-navbar: 35vh;
+}
+
 .navbar-container {
   position: absolute;
   top: 0;
-  height: 35vh;
+  height: var(--height-navbar);
   width: 100%;
   display: flex;
   justify-content: center;
