@@ -11,7 +11,7 @@ function CustomerPage() {
       <Navbar />
       <div className="customer-page-body">
         {divider}
-        <Heading>Customers</Heading>
+        <Heading>Our Customers</Heading>
       </div>
       <div className="customer-page-footer">
         <Footer />
