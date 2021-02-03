@@ -7,4 +7,33 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 100px;
+}
+.customer-page-content {
+  padding: 50px;
+  border: dashed;
+  border-radius: 25px;
+  border-color: var(--primary-color);
+}
+.customer-page-content td {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  cursor: default;
+}
+.customer-page-content .td-heading {
+  padding-bottom: 30px;
+  font-size: 125%;
+  font-family: var(--secondary-font);
+}
+.customer-page-content .td-data {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: rgb(90, 90, 90);
+  transition: 0.2s;
+}
+.customer-page-content .td-data:hover {
+  font-size: 120%;
+  font-weight: bold;
+  color: var(--primary-color);
 }
