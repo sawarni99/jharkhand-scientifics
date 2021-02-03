@@ -1,17 +1,19 @@
 import React from "react";
 import "./Footer.css";
+import { useHistory } from "react-router-dom";
 
 function Footer() {
+  let history = useHistory();
   const onClickHome = () => {
-    //TODO: Have to implement code here...
+    history.push("/");
   };
 
   const onClickProducts = () => {
-    //TODO: Have to implement code here...
+    history.push("/products");
   };
 
   const onClickCustomers = () => {
-    //TODO: Have to implement code here...
+    history.push("/customers");
   };
 
   const onClickAboutUs = () => {

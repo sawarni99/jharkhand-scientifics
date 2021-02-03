@@ -1,20 +1,22 @@
 import React from "react";
 import "./Navbar.css";
 import Link from "../../components/link/Link";
+import { useHistory } from "react-router-dom";
 
 function Navbar() {
+  let history = useHistory();
   const phoneNumber = "+91-7739568425";
 
   const onclickHome = () => {
-    //TODO: Have to redirect from here...
+    history.push("/");
   };
 
   const onclickProducts = () => {
-    //TODO: Have to redirect from here...
+    history.push("/products");
   };
 
   const onclickCustomers = () => {
-    //TODO: Have to redirect from here...
+    history.push("/customers");
   };
 
   const onclickContact = () => {

@@ -2,14 +2,17 @@ import React from "react";
 import "./FrontPage.css";
 import CardButton from "../../components/cardButton/CardButton";
 import Heading from "../../components/heading/Heading";
+import { useHistory } from "react-router-dom";
 
 function BrowseView() {
+  let history = useHistory();
+
   const onClickProducts = () => {
-    //TODO:: Have to implement here...
+    history.push("/products");
   };
 
   const onClickCustomers = () => {
-    //TODO:: Have to implement here...
+    history.push("/customers");
   };
 
   const onClickContacts = () => {
