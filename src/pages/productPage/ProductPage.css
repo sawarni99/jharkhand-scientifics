@@ -1,0 +1,7 @@
+.product-page {
+  width: 100%;
+  padding-top: var(--height-navbar);
+}
+.product-page-body {
+  min-height: calc(100vh - var(--height-navbar));
+}
