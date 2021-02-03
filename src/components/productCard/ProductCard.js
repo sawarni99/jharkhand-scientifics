@@ -1,17 +1,10 @@
 import React, { useState } from "react";
 import "./ProductCard.css";
 
-function ProductCard() {
+function ProductCard({ name, category, info }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [focused, setFocus] = useState(false);
-  const productInfos = [
-    { key: "1", size: "50ml", price: "65.00", quantity: "2" },
-    { key: "2", size: "100ml", price: "80.00", quantity: "4" },
-    { key: "3", size: "150ml", price: "95.00", quantity: "2" },
-    { key: "4", size: "250ml", price: "115.00", quantity: "9" },
-    { key: "5", size: "500ml", price: "140.00", quantity: "1" },
-  ];
-
+  const productInfos = info;
   let haveSize = true;
   for (let i = 0; i < productInfos.length; i++) {
     if (!productInfos[i].size) {
@@ -34,10 +27,10 @@ function ProductCard() {
       <button onClick={() => setFocus(!focused)} className="product-card-top">
         <div className="product-card-top-left">
           <div>
-            <b>Beaker</b>
+            <b>{name}</b>
           </div>
           <div>
-            <span>Chemistry</span>
+            <span>{category}</span>
           </div>
         </div>
         <div className="product-card-top-right">

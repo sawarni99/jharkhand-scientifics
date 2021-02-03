@@ -4,5 +4,12 @@
 }
 .product-page-body {
   min-height: calc(100vh - var(--height-navbar));
-  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.product-page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
