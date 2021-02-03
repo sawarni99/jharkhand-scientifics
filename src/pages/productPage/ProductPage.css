@@ -4,4 +4,5 @@
 }
 .product-page-body {
   min-height: calc(100vh - var(--height-navbar));
+  padding: 50px;
 }
