@@ -9,7 +9,7 @@ function Navbar() {
 
   // Checking if window is opened in phone....
   useEffect(() => {
-    if (window.innerWidth < 600) {
+    if (window.innerWidth < 900) {
       setShowNavbar(false);
     }
   }, []);

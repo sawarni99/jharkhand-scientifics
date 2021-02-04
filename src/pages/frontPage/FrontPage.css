@@ -47,6 +47,7 @@
   display: flex;
   width: 90%;
   margin-bottom: 40px;
+  justify-content: space-evenly;
 }
 .front-page-browse {
   display: flex;
@@ -58,4 +59,36 @@
   text-align: center;
   color: rgb(99, 99, 99);
   margin-bottom: 40px;
+}
+
+/*Phone View*/
+@media (max-width: 600px) {
+  .front-page-background {
+    height: 40vh;
+    padding-top: 10vh;
+  }
+  .front-page-black {
+    height: 40vh;
+    padding-top: 10vh;
+  }
+  .front-page-background-title {
+    font-size: 200%;
+    top: 25vh;
+    padding: 10px;
+    text-align: center;
+  }
+  .front-page-background-title span {
+    padding: 2px;
+    background: var(--primary-color);
+  }
+  .front-page-services {
+    text-align: center;
+    flex-direction: column;
+    width: auto;
+  }
+  .front-page-browse {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

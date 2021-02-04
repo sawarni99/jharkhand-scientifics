@@ -25,3 +25,10 @@
   font-size: 180%;
   margin: 10px;
 }
+
+@media (max-width: 600px) {
+  .card-button {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+}
