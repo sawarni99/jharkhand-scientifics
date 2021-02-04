@@ -94,6 +94,13 @@ function ProductPage() {
           >
             Chemistry
           </div>
+          <div
+            className={className === "Biology" ? classNameSelectedOption : null}
+            id="Biology"
+            onClick={onClickOptions}
+          >
+            Biology
+          </div>
         </div>
         <div className="product-page-content">{productView}</div>
       </div>
