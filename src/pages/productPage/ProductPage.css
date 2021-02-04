@@ -8,6 +8,25 @@
   align-items: center;
   flex-direction: column;
 }
+.product-page-options {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.product-page-options div {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.product-page-option-selected {
+  color: white;
+  background: var(--primary-color);
+  border-radius: 20px;
+}
 .product-page-content {
   display: flex;
   flex-wrap: wrap;
