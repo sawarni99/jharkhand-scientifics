@@ -1,9 +1,11 @@
 import React from "react";
 import "./Footer.css";
 import { useHistory } from "react-router-dom";
+import { contactDetails } from "../../utils/contactDetails";
 
 function Footer() {
   let history = useHistory();
+  const { phone, name, whatsapp } = contactDetails;
   const onClickHome = () => {
     history.push("/");
   };
@@ -48,16 +50,15 @@ function Footer() {
       </div>
       <div className="footer-right">
         <div className="footer-heading">Contacts</div>
-        <b>Kamal Kishore Sinha</b>
+        <b>{name}</b>
         <br />
         <br />
         <div className="footer-contact">
-          <img src="/images/call-yellow.png" alt="" height="18px" />{" "}
-          +91-7739568425
+          <img src="/images/call-yellow.png" alt="" height="18px" /> {phone}
         </div>
         <br />
         <div className="footer-contact">
-          <img src="/images/whatsapp.png" alt="" height="18px" /> +91-9835106442
+          <img src="/images/whatsapp.png" alt="" height="18px" /> {whatsapp}
         </div>
         <br />
         <div className="footer-contact">

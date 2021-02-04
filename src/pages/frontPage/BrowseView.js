@@ -16,7 +16,7 @@ function BrowseView() {
   };
 
   const onClickContacts = () => {
-    //TODO:: Have to implement here...
+    history.push("/contact");
   };
 
   return (

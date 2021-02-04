@@ -2,10 +2,11 @@ import React from "react";
 import "./Navbar.css";
 import Link from "../../components/link/Link";
 import { useHistory } from "react-router-dom";
+import { contactDetails } from "../../utils/contactDetails";
 
 function Navbar() {
   let history = useHistory();
-  const phoneNumber = "+91-7739568425";
+  const { phone } = contactDetails;
 
   const onclickHome = () => {
     history.push("/");
@@ -20,7 +21,7 @@ function Navbar() {
   };
 
   const onclickContact = () => {
-    //TODO: Have to redirect from here...
+    history.push("/contact");
   };
 
   return (
@@ -50,7 +51,7 @@ function Navbar() {
             alt=""
             style={{ height: "25px", marginRight: "10px" }}
           />
-          {phoneNumber}
+          {phone}
         </div>
       </div>
     </div>
