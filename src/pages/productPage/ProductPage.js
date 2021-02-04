@@ -96,6 +96,15 @@ function ProductPage() {
           </div>
           <div
             className={
+              className === "Physics XII" ? classNameSelectedOption : null
+            }
+            id="Physics XII"
+            onClick={onClickOptions}
+          >
+            Physics XII
+          </div>
+          <div
+            className={
               className === "Chemistry" ? classNameSelectedOption : null
             }
             id="Chemistry"
@@ -109,6 +118,20 @@ function ProductPage() {
             onClick={onClickOptions}
           >
             Biology
+          </div>
+          <div
+            className={className === "Models" ? classNameSelectedOption : null}
+            id="Models"
+            onClick={onClickOptions}
+          >
+            Models
+          </div>
+          <div
+            className={className === "Charts" ? classNameSelectedOption : null}
+            id="Charts"
+            onClick={onClickOptions}
+          >
+            Charts
           </div>
         </div>
         <div className="product-page-content">{productView}</div>
