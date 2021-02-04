@@ -46,3 +46,49 @@
   align-items: center;
   color: white;
 }
+.navbar-phone {
+  display: none;
+}
+
+/*Phone view*/
+@media (max-width: 600px) {
+  .navbar-right {
+    display: none;
+  }
+  .navbar-center {
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .navbar-center div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 0;
+  }
+  .navbar-container {
+    display: inline;
+    z-index: 1;
+  }
+  .navbar {
+    width: auto;
+    height: auto;
+    padding: 8px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .navbar-left {
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .navbar-left span {
+    flex: 1;
+    padding-right: 15px;
+  }
+  .navbar-phone {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+}

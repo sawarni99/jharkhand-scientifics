@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import Link from "../../components/link/Link";
 import { useHistory } from "react-router-dom";
 import { contactDetails } from "../../utils/contactDetails";
 
 function Navbar() {
+  const [showNavbar, setShowNavbar] = useState(true);
+
+  // Checking if window is opened in phone....
+  useEffect(() => {
+    if (window.innerWidth < 600) {
+      setShowNavbar(false);
+    }
+  }, []);
+
   let history = useHistory();
   const { phone } = contactDetails;
 
@@ -28,23 +37,34 @@ function Navbar() {
     <div className="navbar-container">
       <div className="navbar">
         <div className="navbar-left">
-          JHARKHAND <br />
-          SCIENTIFICS
+          <div
+            onClick={() => setShowNavbar(!showNavbar)}
+            className="navbar-phone"
+          >
+            <img src="/images/menu.svg" alt="" height="30px" width="30px" />
+          </div>
+          <span>
+            JHARKHAND <br />
+            SCIENTIFICS
+          </span>
         </div>
-        <div className="navbar-center">
-          <div>
-            <Link onClick={onclickHome}>HOME</Link>
+        {showNavbar ? (
+          <div className="navbar-center">
+            <div>
+              <Link onClick={onclickHome}>HOME</Link>
+            </div>
+            <div>
+              <Link onClick={onclickProducts}>PRODUCTS</Link>
+            </div>
+            <div>
+              <Link onClick={onclickCustomers}>CUSTOMERS</Link>
+            </div>
+            <div>
+              <Link onClick={onclickContact}>CONTACT</Link>
+            </div>
           </div>
-          <div>
-            <Link onClick={onclickProducts}>PRODUCTS</Link>
-          </div>
-          <div>
-            <Link onClick={onclickCustomers}>CUSTOMERS</Link>
-          </div>
-          <div>
-            <Link onClick={onclickContact}>CONTACT</Link>
-          </div>
-        </div>
+        ) : null}
+
         <div className="navbar-right">
           <img
             src="/images/call.png"
