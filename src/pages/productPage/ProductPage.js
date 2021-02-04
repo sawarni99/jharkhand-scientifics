@@ -87,6 +87,15 @@ function ProductPage() {
           </div>
           <div
             className={
+              className === "Physics X" ? classNameSelectedOption : null
+            }
+            id="Physics X"
+            onClick={onClickOptions}
+          >
+            Physics X
+          </div>
+          <div
+            className={
               className === "Chemistry" ? classNameSelectedOption : null
             }
             id="Chemistry"
