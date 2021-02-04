@@ -4,11 +4,15 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import FrontPage from "./pages/frontPage/FrontPage";
 import CustomerPage from "./pages/customerPage/CustomerPage";
 import ProductPage from "./pages/productPage/ProductPage";
+import ContactPage from "./pages/contactPage/ContactPage";
 
 const App = () => {
   return (
     <Router>
       <Switch>
+        <Route path="/contact">
+          <ContactPage />
+        </Route>
         <Route path="/products">
           <ProductPage />
         </Route>
