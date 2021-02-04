@@ -70,12 +70,16 @@
   .front-page-black {
     height: 40vh;
     padding-top: 10vh;
+    background: rgba(0, 0, 0, 0.137);
   }
   .front-page-background-title {
     font-size: 200%;
     top: 25vh;
     padding: 10px;
     text-align: center;
+    z-index: 0;
+
+    font-weight: bold;
   }
   .front-page-background-title span {
     padding: 2px;

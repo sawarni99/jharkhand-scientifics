@@ -17,7 +17,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   background: white;
   display: flex;
-  z-index: 1;
+  z-index: 2;
 }
 .navbar-left {
   flex: 1;
