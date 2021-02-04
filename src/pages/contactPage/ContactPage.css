@@ -11,13 +11,14 @@
   top: 0;
   z-index: -1;
   width: 150px;
-  height: 100%;
+  height: 100vh;
   background: var(--primary-color);
   opacity: 0.8;
 }
 .contact-page-left {
   flex: 1;
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 .contact-page-left img {
   height: 20px;
@@ -74,6 +75,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 .contact-page-map {
   margin-right: 20px;

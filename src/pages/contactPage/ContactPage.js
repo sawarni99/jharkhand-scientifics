@@ -18,8 +18,8 @@ function ContactPage() {
   return (
     <div className="contact-page">
       <Navbar />
+      <div className="contact-page-background" />
       <div className="contact-page-body">
-        <div className="contact-page-background" />
         <div className="contact-page-left">
           <div className="contact-page-content">
             <div className="contact-page-heading">Contact Us</div>

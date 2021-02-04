@@ -1,5 +1,5 @@
 :root {
-  --height-navbar: 35vh;
+  --height-navbar: 25vh;
 }
 
 .navbar-container {
@@ -9,7 +9,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 .navbar {
   height: 17vh;
