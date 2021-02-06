@@ -37,3 +37,17 @@
   font-weight: bold;
   color: var(--primary-color);
 }
+
+@media (max-width: 600px) {
+  .customer-page-content {
+    width: auto;
+    overflow: auto;
+    padding: 0;
+  }
+  .customer-page-content td {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    cursor: default;
+  }
+}
