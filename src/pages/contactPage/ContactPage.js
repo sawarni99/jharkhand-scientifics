@@ -69,6 +69,7 @@ function ContactPage() {
           </div>
         </div>
         <div className="contact-page-right">
+          <img src="/images/loading.svg" alt="" height="60px" />
           <iframe
             className="contact-page-map"
             title="map"

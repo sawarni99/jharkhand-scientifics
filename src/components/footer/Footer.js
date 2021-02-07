@@ -22,6 +22,8 @@ function Footer() {
     //TODO: Have to implement code here...
   };
 
+  const onClickContacts = () => {};
+
   return (
     <div className="footer">
       <div className="footer-left">
@@ -43,6 +45,9 @@ function Footer() {
         </div>
         <div className="footer-link" onClick={onClickCustomers}>
           Customers
+        </div>
+        <div className="footer-link" onClick={onClickContacts}>
+          Contact Us
         </div>
         <div className="footer-link" onClick={onClickAboutUs}>
           About Us

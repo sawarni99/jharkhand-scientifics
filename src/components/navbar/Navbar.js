@@ -43,16 +43,13 @@ function Navbar() {
           >
             <img src="/images/menu.svg" alt="" height="30px" width="30px" />
           </div>
-          <span>
+          <span onClick={onclickHome}>
             JHARKHAND <br />
             SCIENTIFICS
           </span>
         </div>
         {showNavbar ? (
           <div className="navbar-center">
-            <div>
-              <Link onClick={onclickHome}>HOME</Link>
-            </div>
             <div>
               <Link onClick={onclickProducts}>PRODUCTS</Link>
             </div>
@@ -61,6 +58,9 @@ function Navbar() {
             </div>
             <div>
               <Link onClick={onclickContact}>CONTACT</Link>
+            </div>
+            <div>
+              <Link onClick={onclickContact}>ABOUT US</Link>
             </div>
           </div>
         ) : null}
