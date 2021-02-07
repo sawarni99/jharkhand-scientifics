@@ -32,6 +32,9 @@ function Navbar() {
   const onclickContact = () => {
     history.push("/contact");
   };
+  const onclickAboutUs = () => {
+    history.push("/aboutus");
+  };
 
   return (
     <div className="navbar-container">
@@ -60,7 +63,7 @@ function Navbar() {
               <Link onClick={onclickContact}>CONTACT</Link>
             </div>
             <div>
-              <Link onClick={onclickContact}>ABOUT US</Link>
+              <Link onClick={onclickAboutUs}>ABOUT US</Link>
             </div>
           </div>
         ) : null}

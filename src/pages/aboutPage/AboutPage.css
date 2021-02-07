@@ -1,0 +1,41 @@
+.about-page-body {
+  margin-top: var(--height-navbar);
+  min-height: calc(100vh - var(--height-navbar));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-page-quote {
+  font-family: "Courgette", cursive;
+  text-align: center;
+  font-size: 120%;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.about-page-content {
+  width: 80%;
+  display: flex;
+  background: rgba(0, 0, 0, 0.05);
+  position: relative;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+  font-family: "Courgette", cursive;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.about-page-info {
+  padding: 20px;
+}
+.about-page-img1 {
+  border-left: 20px solid var(--primary-color);
+}
+.about-page-img2 {
+  border-right: 20px solid var(--primary-color);
+}
+.about-page-info p {
+  font-family: var(--secondary-font);
+  font-size: 150%;
+}
+.about-page-info span {
+  color: rgb(90, 90, 90);
+}

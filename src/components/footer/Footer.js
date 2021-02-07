@@ -22,7 +22,7 @@ function Footer() {
   };
 
   const onClickAboutUs = () => {
-    //TODO: Have to implement code here...
+    history.push("/aboutus");
   };
 
   const onClickContacts = () => {};
