@@ -9,3 +9,17 @@ body {
   font-family: var(--primary-font);
   color: #3e3e3e;
 }
+
+a {
+  color: rgb(145, 145, 145);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:visited {
+  color: rgb(145, 145, 145);
+}
+
+a:hover {
+  color: var(--primary-color);
+}

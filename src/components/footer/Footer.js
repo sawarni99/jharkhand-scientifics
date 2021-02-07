@@ -5,7 +5,10 @@ import { contactDetails } from "../../utils/contactDetails";
 
 function Footer() {
   let history = useHistory();
-  const { phone, name, whatsapp } = contactDetails;
+  const { phone, name, whatsapp, email } = contactDetails;
+  const telLink = "tel:" + phone;
+  const wappLink = "tel:" + whatsapp;
+  const mailLink = "mailto:" + email;
   const onClickHome = () => {
     history.push("/");
   };
@@ -59,16 +62,18 @@ function Footer() {
         <br />
         <br />
         <div className="footer-contact">
-          <img src="/images/call-yellow.png" alt="" height="18px" /> {phone}
+          <img src="/images/call-yellow.png" alt="" height="18px" />
+          <a href={telLink}>{phone}</a>
         </div>
         <br />
         <div className="footer-contact">
-          <img src="/images/whatsapp.png" alt="" height="18px" /> {whatsapp}
+          <img src="/images/whatsapp.png" alt="" height="18px" />
+          <a href={wappLink}>{whatsapp}</a>
         </div>
         <br />
         <div className="footer-contact">
-          <img src="/images/mail.png" alt="" height="18px" />{" "}
-          jharkhand0scientifics2018@gmail.com
+          <img src="/images/mail.png" alt="" height="18px" />
+          <a href={mailLink}>{email}</a>
         </div>
       </div>
     </div>
