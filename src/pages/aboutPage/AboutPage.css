@@ -34,8 +34,26 @@
 }
 .about-page-info p {
   font-family: var(--secondary-font);
-  font-size: 150%;
+  font-size: 160%;
 }
 .about-page-info span {
   color: rgb(90, 90, 90);
+  font-size: 110%;
+}
+
+@media (max-width: 600px) {
+  .about-page-quote {
+    padding: 10px;
+  }
+  .about-page-content {
+    flex-direction: column;
+  }
+  .about-page-img1 {
+    border: none;
+    height: auto;
+  }
+  .about-page-img2 {
+    border: none;
+    height: auto;
+  }
 }
