@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Jharkhand Scientifics
+A responsive and user-friendly website designed to market and showcase scientific equipment. Built using **React JS**, **HTML**, and **CSS**, it offers an intuitive interface for users to browse and explore products.
+<br><br>
+## Landing Page
+The landing page provides a professional and user-friendly interface with links to explore **Products**, **Customers**, and **Contact** sections. A footer includes essential details like **email** and **phone** for easy communication, ensuring a seamless user experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Home](./public/screenshots/Home-full.jpeg)
 
-## Available Scripts
 
-In the project directory, you can run:
+#### Mobile View
+<img src="./public/screenshots/Mobile-resonsive-partial.jpeg" alt="Mobile" width="300" >
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Product Page
+The **Product Page** allows users to explore a variety of scientific equipment across multiple categories such as **Mathematics**, **Physics**, **Chemistry**, and more. Users can easily view the equipment by selecting a specific category and adjusting the size options to see relevant products. Each product includes detailed descriptions and pricing, making it simple for users to find the equipment they need.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Product](./public/screenshots/Product-partial.png)
 
-### `yarn test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Customers
+The **Customer Page** highlights the diverse range of clients who trust our products. It includes detailed information about each customer, such as their **school or organization name**, **location**, and the **number of years** they’ve been purchasing from us. This page serves as a testament to our long-term relationships with valued clients and showcases the trust they place in our scientific equipment.
 
-### `yarn build`
+![Customer](./public/screenshots/customer-partial.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contacts
+The **Contact Page** provides all the essential details for reaching out to the shop. It includes the **address**, **email**, and **phone number** for direct communication. Additionally, an embedded **Google Maps iframe** is included to show the exact location of the shop, making it easy for visitors to find it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Contact](./public/screenshots/Contact-full.jpeg)
