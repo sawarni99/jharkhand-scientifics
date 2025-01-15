@@ -73,7 +73,7 @@ function ContactPage() {
           <iframe
             className="contact-page-map"
             title="map"
-            src="https://www.google.com/maps/d/embed?mid=17eIPpL_dgBsN_oC9yjsZLRRsPAzjRPR1&hl=en"
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3650.5007240292957!2d86.44118557479352!3d23.800787186841134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s11%20-%20Bhuban%20Sandhya%20Market%2C%20Durga%20Mandir%20Road%20No.%202%2C%20Hirapur%2C%20Dhanbad!5e0!3m2!1sen!2sin!4v1736687977749!5m2!1sen!2sin"
             width="400px"
             height="320px"
           />
